@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         final RequestParams params = new RequestParams(); //リクエストパラメータ
         params.put("uuid", room_uuid); //送るパラメータ1
-        String url = "http://192.168.100.163:81/roomdb.php"; //http://192.168.100.110:81/roomdb.php
+        String url = "http://192.168.100.118/pdotest.php";
 
         //final String TAG = MainActivity.class.getSimpleName();
 
