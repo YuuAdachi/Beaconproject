@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
         final RequestParams params = new RequestParams(); //リクエストパラメータ
         params.put("uuid", room_uuid); //送るパラメータ1
-        String url = "http://192.168.100.118/pdotest.php";
+        String url = "http://192.168.100.211:808/beacon_server.php";
 
         //final String TAG = MainActivity.class.getSimpleName();
 
