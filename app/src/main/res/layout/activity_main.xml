@@ -12,10 +12,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="UUID"
         android:id="@+id/uuid"
-        android:textSize="20sp"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="92dp" />
+        android:textSize="16sp"
+        android:layout_marginTop="510dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -24,7 +22,7 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="30dp"
         android:onClick="OnClick" />
 
     <TextView
@@ -33,29 +31,49 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="通信"
         android:id="@+id/myTextView"
-        android:textSize="28sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp" />
+        android:textSize="18sp"
+        android:layout_gravity="right"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="RoomName :"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="0sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="RoomID :"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="50sp"
+        android:layout_marginLeft="35sp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/room_id"
-        android:layout_below="@+id/myTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:text="room_ID"
-        android:textSize="24sp" />
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="50sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp" />
 
     <TextView
+        android:text="Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="room_Name"
         android:id="@+id/room_name"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="24sp" />
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp" />
 </RelativeLayout>
