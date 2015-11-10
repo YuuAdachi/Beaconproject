@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Beaconproject_Map" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Beaconproject_Map_1" vcs="Git" />
   </component>
 </project>
